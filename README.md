@@ -63,6 +63,7 @@ Meeting tracker AI/
 cd backend
 npm install
 # Create .env with DATABASE_URL, LLM_API_KEY, CORS_ORIGIN, PORT (see backend/.env.example)
+npx prisma generate
 npx prisma migrate deploy
 npm run dev
 ```
